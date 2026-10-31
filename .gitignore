@@ -1,0 +1,29 @@
+# Python virtual environment and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local application data
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Test, coverage, and build output
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
